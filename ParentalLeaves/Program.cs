@@ -28,9 +28,6 @@ do
 } while (canProcess == false);
 
 //Process input
-int[] paidEntitlements = new int[] { 105, 7, 3 };
-int[] extentionEntitlements = new int[] { 30, 7, 15 };
-
 Console.WriteLine();
 switch (pickedLeave - 1)
 {
