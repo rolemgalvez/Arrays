@@ -7,17 +7,17 @@ bool runAgain;
 int userChoice;
 string[] options = new string[11]
 {
-        " Ordinary Work Day Overtime",
-        " Rest Day Overtime",
-        " Rest Day Overtime in excess of 8 hours",
-        " Special Holiday Overtime",
-        " Special Holiday Overtimein in excess of 8 hours",
-        " Rest Day and Special Holiday Overtime",
-        " Rest Day and Special Holiday Overtime in excess of 8 hours",
-        " Regular Holiday Overtime",
-        " Regular Holiday Overtime in excess of 8 hours",
-        "Regular Holiday and Rest Day Overtime",
-        "Double Holiday Overtime"
+    " Ordinary Work Day Overtime",
+    " Rest Day Overtime",
+    " Rest Day Overtime in excess of 8 hours",
+    " Special Holiday Overtime",
+    " Special Holiday Overtimein in excess of 8 hours",
+    " Rest Day and Special Holiday Overtime",
+    " Rest Day and Special Holiday Overtime in excess of 8 hours",
+    " Regular Holiday Overtime",
+    " Regular Holiday Overtime in excess of 8 hours",
+    "Regular Holiday and Rest Day Overtime",
+    "Double Holiday Overtime"
 };
 int[] indexOfInExcess = new int[] { 2, 4, 6, 8 };
 int[] overtimeRatesA = new int[11] { 125, 130, 130, 130, 130, 150, 150, 200, 200, 200, 300 };
