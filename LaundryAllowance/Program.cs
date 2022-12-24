@@ -38,7 +38,7 @@ do
     Console.Write("Enter the number corresponding to your chosen frequency: ");
     bool isValidInput = int.TryParse(Console.ReadLine(), out userInput);
     bool acceptedInput = userInput > 0 && userInput < 4;
-    runAgain = (isValidInput == false) && (acceptedInput == false);
+    runAgain = (isValidInput == false) || (acceptedInput == false);
 
     if (runAgain)
     {
@@ -50,3 +50,11 @@ do
 
 //Prepare values
 int chosenFrequency = userInput - 1;
+
+Console.WriteLine();
+Console.WriteLine($"Php {allowances[chosenFrequency].ToString("N")} is the maximum amount you can expect {frequencies[chosenFrequency]}.");
+
+//End of program
+Console.WriteLine();
+Console.WriteLine("End of program.");
+Console.ReadLine();
