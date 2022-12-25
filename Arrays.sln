@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OvertimeRates", "OvertimeRa
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LaundryAllowance", "LaundryAllowance\LaundryAllowance.csproj", "{50E80667-1F94-43D0-A9A3-FF03560541F7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ActualMedicalAssistance", "ActualMedicalAssistance\ActualMedicalAssistance.csproj", "{2FA4C5DE-43B2-4EE1-9B5C-4283829B8EE9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ActualMedicalAssistance", "ActualMedicalAssistance\ActualMedicalAssistance.csproj", "{2FA4C5DE-43B2-4EE1-9B5C-4283829B8EE9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GiftCelebrations", "GiftCelebrations\GiftCelebrations.csproj", "{EC5D5635-5F26-4A04-99AF-A8B5C2D21F32}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{2FA4C5DE-43B2-4EE1-9B5C-4283829B8EE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2FA4C5DE-43B2-4EE1-9B5C-4283829B8EE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2FA4C5DE-43B2-4EE1-9B5C-4283829B8EE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC5D5635-5F26-4A04-99AF-A8B5C2D21F32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC5D5635-5F26-4A04-99AF-A8B5C2D21F32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC5D5635-5F26-4A04-99AF-A8B5C2D21F32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC5D5635-5F26-4A04-99AF-A8B5C2D21F32}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
